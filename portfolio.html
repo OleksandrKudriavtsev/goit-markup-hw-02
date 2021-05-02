@@ -1,123 +1,115 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<header>
-    <nav>
-        <h1><a href="portfolio.html">WebStudio</a></h1>
-        <a href="">Студия</a>
-        <a href="">Портфолио</a>
-        <a href="">Контакты</a>
-    </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>   
-</header>
-<main>
-    <section>
-        <button>Все</button>
-        <button>Веб-сайты</button>
-        <button>Приложения</button>
-        <button>Дизайн</button>
-        <button>Маркетинг</button>
-    </section>
-    <section>
-       <ul>
-            <li>
-                <figure>
-                    <figcaption>
-                        <img src="./images/page2-img1-squoshed.jpg" alt="ноутбук1" width="370">
-                        <h2>Технокряк</h2>
-                        <p>Веб-сайт</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <figcaption>
-                        <img src="./images/page2-img2-squoshed.jpg" alt="баскетбол" width="370">
-                            <h2>Постер New Orlean vs Golden Star</h2>
-                            <p>Дизайн</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <figcaption>
-                        <img src="./images/page2-img3-squoshed.jpg" alt="ресторан" width="370">
-                        <h2>Ресторан Seafood</h2>
-                        <p>Приложение</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <figcaption>
-                        <img src="./images/page2-img4-squoshed.jpg" alt="наушники" width="370">
-                        <h2>Проект Prime</h2>
-                        <p>Маркетинг</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <figcaption>
-                        <img src="./images/page2-img5-squoshed.jpg" alt="коробки" width="370">
-                        <h2>Проект Boxes</h2>
-                        <p>Приложение</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <figcaption>
-                        <img src="./images/page2-img6-squoshed.jpg" alt="аймак" width="370">
-                        <h2 lang="en">Inspiration has no Borders</h2>
-                        <p>Веб-сайт</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <figcaption>
-                        <img src="./images/page2-img7-squoshed.jpg" alt="книга" width="370">
-                        <h2>Издание Limited Edition</h2>
-                        <p>Дизайн</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <figcaption>
-                        <img src="./images/page2-img8-squoshed.jpg" alt="жетон" width="370">
-                        <h2>Проект LAB</h2>
-                        <p>Маркетинг</p>
-                    </figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <figcaption>
-                        <img src="./images/page2-img9-squoshed.jpg" alt="ноутбук2" width="370">
-                        <h2 lang="en">Growing Business</h2>
-                        <p>Приложение</p>
-                    </figcaption>
-                </figure>
-            </li>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .body {
+        font-family: roboto;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Портфолио</title>
+  </head>
+  <body class="body">
+    <header class="header-section">
+      <nav>
+        <a href="./index.html" class="logo"><span class="half-logo">Web</span>Studio</a>
+        <ul class="header-nav-links">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
-    </section>
-</main>
-<footer>
-    <h1><a href="portfolio.html">WebStudio</a></h1>
-    <address>
-        г. Киев, пр-т Леси Украинки, 26<br/>
-        <a href="mailto:info@example.com">info@example.com</a><br/>
-        <a href="tel:+380991111111">+38 099 111 11 11</a>
-    </address>
-</footer>
-</body>
+      </nav>
+      <ul>
+        <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+      </ul>
+    </header>
+    <main class="main">
+      <section>
+        <h2 class="hidden">Меню навигации</h2>
+        <button type="button" class="btn">Все</button>
+        <button type="button" class="btn">Веб-сайты</button>
+        <button type="button" class="btn">Приложения</button>
+        <button type="button" class="btn">Дизайн</button>
+        <button type="button" class="btn">Маркетинг</button>
+      </section>
+      <section>
+        <h1 hidden>Галерея</h1>
+        <ul>
+          <li>
+            <img src="./images/page2-img1-squoshed.jpg" alt="ноутбук" width="370" />
+            <h2>Технокряк</h2>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <img src="./images/page2-img2-squoshed.jpg" alt="игра в баскетбол" width="370" />
+            <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <img src="./images/page2-img3-squoshed.jpg" alt="ресторан" width="370" />
+            <h2>Ресторан <span lang="en">Seafood</span></h2>
+            <p>Приложение</p>
+          </li>
+          <li>
+            <img src="./images/page2-img4-squoshed.jpg" alt="наушники" width="370" />
+            <h2>Проект <span lang="en">Prime</span></h2>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <img src="./images/page2-img5-squoshed.jpg" alt="коробки" width="370" />
+            <h2>Проект <span lang="en">Boxes</span></h2>
+            <p>Приложение</p>
+          </li>
+          <li>
+            <img src="./images/page2-img6-squoshed.jpg" alt="аймак" width="370" />
+            <h2 lang="en">Inspiration has no Borders</h2>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <img src="./images/page2-img7-squoshed.jpg" alt="книга" width="370" />
+            <h2>Издание <span lang="en">Limited Edition</span></h2>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <img src="./images/page2-img8-squoshed.jpg" alt="жетон" width="370" />
+            <h2>Проект <span lang="en">LAB</span></h2>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <img
+              src="./images/page2-img9-squoshed.jpg"
+              alt="набор текста на ноутбуке"
+              width="370"
+            />
+            <h2 lang="en">Growing Business</h2>
+            <p>Приложение</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer-section">
+      <a href="./index.html" class="logo-footer"><span class="half-logo">Web</span>Studio</a>
+      <!--<a href="./index.html" class=".logo"><span class="half-logo">Web</span>Studio</a>-->
+      <address>
+        <a
+          href="https://goo.gl/maps/p7U2PuKPmxzugdVK6"
+          class="footer-adress-link"
+          target="_blank"
+          rel="noopener norrefer"
+          >г. Киев, пр-т Леси Украинки, 26</a
+        ><br />
+        <a href="mailto:info@example.com" class="footer-link">info@example.com</a><br />
+        <a href="tel:+380991111111" class="footer-link">+38 099 111 11 11</a>
+      </address>
+    </footer>
+  </body>
 </html>
