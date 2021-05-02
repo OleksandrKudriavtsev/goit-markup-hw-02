@@ -146,7 +146,7 @@ li {
 }
 
 .team-section {
-  background: var(-backgound-grey);
+  background: var(--backgound-grey);
 }
 
 .title2 {
