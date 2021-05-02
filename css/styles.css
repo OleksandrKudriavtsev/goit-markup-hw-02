@@ -9,8 +9,10 @@
   --txt-grey: rgba(255, 255, 255, 0.6);
   --borderline: #ececec;
 }
-/* links-n-buttons-n-hidden */
+
+/* links-n-buttons */
 .link,
+.header-link,
 .footer-link,
 .footer-adress-link {
   text-decoration: none;
@@ -19,6 +21,8 @@
 
 .link:hover,
 .link:focus,
+.header-link:hover,
+.header-link:focus,
 .footer-link:hover,
 .footer-link:focus,
 .footer-adress-link:hover,
@@ -29,6 +33,10 @@
 
 .link {
   color: var(--txt-black);
+}
+
+.header-link {
+  color: var(--txt-header-mail-n-phone-n-phototxt);
 }
 
 .footer-link {
@@ -51,13 +59,9 @@
   cursor: pointer;
 }
 
+/* hidden-n-special-logo*/
 .hidden {
   display: none;
-}
-
-/* body */
-.header-section {
-  background: var(--background-header-n-photo);
 }
 
 .logo {
@@ -75,13 +79,25 @@
   color: var(--txt-blue);
 }
 
+/* body */
+li {
+  list-style-type: none;
+}
+
+.header-section {
+  background: var(--background-header-n-photo);
+}
+
 .main {
   background: var(--background-light);
 }
 
 .hero-section {
+  width: 1600px;
+  height: 600px;
   color: var(--background-header-n-photo);
   background: var(--background-dark);
+  text-align: center;
 }
 
 .team-section {
