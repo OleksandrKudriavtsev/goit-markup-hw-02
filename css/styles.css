@@ -16,7 +16,6 @@
 .footer-link,
 .footer-adress-link {
   text-decoration: none;
-  cursor: pointer;
 }
 
 .link:hover,
@@ -28,22 +27,41 @@
 .footer-adress-link:hover,
 .footer-adress-link:focus {
   color: var(--txt-blue);
-  cursor: pointer;
 }
 
 .link {
+  /*font-style: normal;*/
+  font-weight: 500;
+  font-size: 14px;
+  /*line-height: 16px;*/
+  letter-spacing: 0.02em;
   color: var(--txt-black);
 }
 
 .header-link {
+  /*font-style: normal;*/
+  font-weight: 500;
+  font-size: 14px;
+  /*line-height: 16px;*/
+  letter-spacing: 0.02em;
   color: var(--txt-header-mail-n-phone-n-phototxt);
 }
 
 .footer-link {
+  font-style: normal;
+  /*font-weight: normal;*/
+  font-size: 14px;
+  /*line-height: 24px;*/
+  letter-spacing: 0.03em;
   color: var(--txt-grey);
 }
 
 .footer-adress-link {
+  font-style: normal;
+  /*font-weight: normal;*/
+  font-size: 14px;
+  /*line-height: 24px;*/
+  letter-spacing: 0.03em;
   color: var(--background-header-n-photo);
 }
 
@@ -55,6 +73,7 @@
 .btn:hover,
 .btn:focus,
 .btn-blue {
+  color: var(--background-header-n-photo);
   background: var(--txt-blue);
   cursor: pointer;
 }
@@ -66,10 +85,10 @@
 
 .logo {
   font-family: Raleway;
-  font-style: normal;
+  /*font-style: normal;*/
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  /*line-height: 31px;*/
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--txt-black);
@@ -93,15 +112,81 @@ li {
 }
 
 .hero-section {
-  width: 1600px;
-  height: 600px;
   color: var(--background-header-n-photo);
   background: var(--background-dark);
   text-align: center;
 }
 
+.hero-title {
+  /*font-style: normal;*/
+  font-weight: 900;
+  font-size: 44px;
+  /*line-height: 60px;*/
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.central-section h3 {
+  color: var(--txt-black);
+  /*font-style: normal;*/
+  font-weight: bold;
+  font-size: 14px;
+  /*line-height: 16px;*/
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.central-section p {
+  color: var(--txt-header-mail-n-phone-n-phototxt);
+  /*font-style: normal;*/
+  /*font-weight: normal;*/
+  font-size: 14px;
+  /*line-height: 24px;*/
+  letter-spacing: 0.03em;
+}
+
 .team-section {
-  background: var(--backgound-grey);
+  background: var(-backgound-grey);
+}
+
+.title2 {
+  /*font-style: normal;*/
+  font-weight: bold;
+  font-size: 36px;
+  /*line-height: 42px;*/
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-names {
+  color: var(--txt-black);
+  /*font-style: normal;*/
+  font-weight: 500;
+  font-size: 16px;
+  /*line-height: 19px;*/
+  letter-spacing: 0.03em;
+}
+
+.team-proffesion {
+  color: var(--txt-header-mail-n-phone-n-phototxt);
+}
+
+.portfolio-pic-names {
+  color: var(--txt-black);
+  /*font-style: normal;*/
+  font-weight: bold;
+  font-size: 18px;
+  /*line-height: 36px;*/
+  letter-spacing: 0.06em;
+}
+
+.portfolio-descript {
+  color: var(--txt-header-mail-n-phone-n-phototxt);
+  /*font-style: normal;*/
+  /*font-weight: normal;*/
+  font-size: 16px;
+  /*line-height: 30px;*/
+  letter-spacing: 0.03em;
 }
 
 .footer-section {
@@ -113,7 +198,7 @@ li {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  /*line-height: 31px;*/
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--background-header-n-photo);
