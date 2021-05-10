@@ -14,7 +14,8 @@
 .link,
 .header-link,
 .footer-link,
-.footer-adress-link {
+.footer-adress-link,
+.portfolio-photo-link {
   text-decoration: none;
 }
 
@@ -46,14 +47,12 @@
 .footer-link {
   font-style: normal;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--txt-grey);
 }
 
 .footer-adress-link {
   font-style: normal;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--background-header-n-photo);
 }
 
@@ -89,22 +88,22 @@
   border-radius: 4px;
 }
 
-.btn-sizing-1 {
+.btn-sizing-one {
   width: 73px;
   height: 38px;
 }
 
-.btn-sizing-2 {
+.btn-sizing-two {
   width: 130px;
   height: 38px;
 }
 
-.btn-sizing-3 {
+.btn-sizing-three {
   width: 145px;
   height: 38px;
 }
 
-.btn-sizing-4 {
+.btn-sizing-four {
   width: 103px;
   height: 38px;
 }
@@ -119,7 +118,6 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 1.3;
-  letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--txt-black);
 }
@@ -160,14 +158,12 @@ li {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .central-section p {
   color: var(--txt-header-mail-n-phone-n-phototxt);
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 
 .team-section {
@@ -179,7 +175,6 @@ li {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-names {
@@ -187,7 +182,6 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 
 .team-proffesion {
@@ -206,7 +200,6 @@ li {
   color: var(--txt-header-mail-n-phone-n-phototxt);
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
 }
 
 .footer-section {
@@ -219,7 +212,7 @@ li {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+
   text-decoration: none;
   color: var(--background-header-n-photo);
 }
